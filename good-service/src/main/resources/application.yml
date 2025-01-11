@@ -2,12 +2,12 @@ server:
   port: 8080
 dubbo:
   application:
-    name: hello-provider
+    name: good-provider
   registry:
     address: zookeeper://127.0.0.1:2181
   protocol:
     name: dubbo
-    host: 192.168.0.103
+    host: localhost
     port: 20880
 spring:
   datasource:

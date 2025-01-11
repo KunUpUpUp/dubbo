@@ -1,10 +1,10 @@
-import com.seasugar.ProviderStarter;
+import com.seasugar.GoodStarter;
 import com.seasugar.api.service.GoodService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = ProviderStarter.class)
+@SpringBootTest(classes = GoodStarter.class)
 public class SpeedTest {
 
     @Autowired

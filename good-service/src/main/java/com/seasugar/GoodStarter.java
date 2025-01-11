@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableDubbo
-public class ProviderStarter {
+public class GoodStarter {
     public static void main(String[] args) {
-        SpringApplication.run(ProviderStarter.class, args);
+        SpringApplication.run(GoodStarter.class, args);
     }
 }
