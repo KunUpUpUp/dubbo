@@ -21,6 +21,7 @@ public class GoodServiceImpl implements GoodService {
 
     @Override
     public Good getGoodById(Long id) {
+        System.out.println("方法被调用");
         if (id == 2) {
             String json = "{\n" +
                     "    \"description\": \"好看的杯子，更好用\",\n" +

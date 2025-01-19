@@ -1,13 +1,14 @@
 server:
-  port: 8080
+  port: 8081
 dubbo:
   application:
     name: good-service
   registry:
-    address: zookeeper://127.0.0.1:2181
+#    address: zookeeper://127.0.0.1:2181
+    address: nacos://127.0.0.1:8848
   protocol:
     name: dubbo
-    host: localhost
+#    host: 192.168.0.103
     port: 20880
 spring:
   datasource:
